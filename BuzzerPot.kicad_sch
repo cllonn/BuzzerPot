@@ -1,0 +1,2899 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bf042a33-1684-4ee5-aab2-ce4b698ddb84")
+	(paper "A4")
+	(title_block
+		(title "555 Timer")
+		(date "2025-01-16")
+		(rev "v1.0")
+		(company "Remal")
+		(comment 1 "Sara AlMarzooqi")
+	)
+	(lib_symbols
+		(symbol "Remal_KiCadLib:ConnM_01x03_Horizontal_2.54mm"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ConnM_01x03_Horizontal_2.54mm"
+				(at -0.508 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Remal_KiCadLib:PinHeader_1x03_P2.54mm_Horizontal"
+				(at 0 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector male horizontal, single row, 01x03"
+				(at 0 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ConnM_01x03_Horizontal_2.54mm_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -0.762)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy 2.032 1.778)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.318) (xy 2.032 4.318)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 1.27 4.318)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Remal_KiCadLib:D_Schottky_SOD-123_xxV_xxA"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_SOD-123_xxV_xxA"
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Remal_KiCadLib:D_SOD-123"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOD-123 Schottky Barrier Diodes (SBD) diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SOD-123 Schottky Barrier Diodes (SBD) diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_SOD-123_xxV_xxA_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.635) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_SOD-123_xxV_xxA_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Remal_KiCadLib:R_0805_2012m"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.175 1.905 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0805_2012m"
+				(at 0.762 1.905 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Remal_KiCadLib:R_0805_2012m"
+				(at 1.905 -4.191 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.6604 -5.4864 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0805 (2012m) Resistor"
+				(at 0.9144 -2.0574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0805_2012m_1_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 0.508) (xy -0.762 0) (xy -0.381 -0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 0.508) (xy 0.762 0) (xy 1.143 -0.508) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "0805"
+					(at 1.4478 0.4572 0)
+					(effects
+						(font
+							(size 0.4 0.4)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:AO3400_C4748804"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AO3400_C4748804"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C4748804"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400_C4748804_0_1"
+				(polyline
+					(pts
+						(xy -0.51 2.29) (xy -0.51 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.29) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.51) (xy 0 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.29) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.78) (xy 0 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.52 -0.51) (xy 1.52 0.51) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.51) (xy 4.32 -0.76) (xy 5.84 -0.76) (xy 5.08 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.84 0.51) (xy 5.59 0.51) (xy 4.57 0.51) (xy 4.32 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.78) (xy 2.54 1.78) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 0 0)
+					(length 2.032)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:SFN-1407PA7.6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BUZZER"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SFN-1407PA7.6"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:BUZ-TH_BD14.0-P7.60-D0.7"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_S-S-SFN-1407PA7-6_C360603.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C360603"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SFN-1407PA7.6_0_1"
+				(polyline
+					(pts
+						(xy 0 -3.05) (xy 2.54 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.51) (xy 0 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.51) (xy 2.54 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.05) (xy 4.83 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.51) (xy 2.54 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.83 2.54) (xy 2.54 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.83 2.54) (xy 4.83 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:WH06-2C-103(10K)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WH06-2C-103(10K)"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:RES-ADJ-TH_WH06-2C-103"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5205043"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WH06-2C-103(10K)_0_1"
+				(polyline
+					(pts
+						(xy -2.29 -2.54) (xy -1.78 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.78 -1.52) (xy -1.27 -3.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.56) (xy -0.51 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -1.52) (xy 0 -3.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.56) (xy 0.51 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.25 0) (xy 0.25 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 -1.52) (xy 1.27 -3.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.56) (xy 1.78 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.78 -1.52) (xy 2.54 -3.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.56) (xy 2.79 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.25 0) (xy 0.25 -1.02) (xy 0.76 0) (xy -0.25 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 3.05 -1.78)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 5.33 -2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -4.83 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0.25 2.54 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 80.772 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e0d8de9-62d0-4433-a6bd-8355a364e732")
+	)
+	(junction
+		(at 80.772 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7bfeda3-dabf-4239-a8d8-3e8fa2d0d604")
+	)
+	(wire
+		(pts
+			(xy 71.882 48.006) (xy 75.692 48.006)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08395e53-f4fa-4c8c-8b36-f8ede1fa877e")
+	)
+	(wire
+		(pts
+			(xy 80.772 30.48) (xy 80.772 42.926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1051d552-98a4-4620-b094-78b092278036")
+	)
+	(wire
+		(pts
+			(xy 38.1 54.864) (xy 46.228 54.864)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8b857e-869b-4b58-aad1-abf30e97255f")
+	)
+	(wire
+		(pts
+			(xy 75.438 20.32) (xy 80.772 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f261a17-e1a4-4fa2-b23c-49f802201630")
+	)
+	(wire
+		(pts
+			(xy 36.83 28.956) (xy 36.83 28.194)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245d2de4-013c-4dd8-a4f2-a936b0f21411")
+	)
+	(wire
+		(pts
+			(xy 83.566 16.002) (xy 80.772 16.002)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5461b8da-0b59-4014-a802-57fe238a3bf6")
+	)
+	(wire
+		(pts
+			(xy 80.772 26.924) (xy 80.772 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77634570-d18f-4743-8fd1-853933739369")
+	)
+	(wire
+		(pts
+			(xy 80.772 53.086) (xy 80.772 61.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7fc763-a310-4df3-840b-18cce77d8709")
+	)
+	(wire
+		(pts
+			(xy 34.544 28.194) (xy 36.83 28.194)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98be3738-12bc-4f97-b914-77a88b943668")
+	)
+	(wire
+		(pts
+			(xy 75.438 22.352) (xy 75.438 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d8b642-53f3-4af0-afe9-471c1e3bf590")
+	)
+	(wire
+		(pts
+			(xy 80.772 16.002) (xy 80.772 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9217644-4853-43e0-9b5a-298c83061cdc")
+	)
+	(wire
+		(pts
+			(xy 46.228 54.864) (xy 46.228 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e5b116-6d99-4108-8bac-d3b07dec4122")
+	)
+	(wire
+		(pts
+			(xy 80.772 20.32) (xy 80.772 24.384)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c021b56a-a365-40f8-a0ea-e81af4c9b3fd")
+	)
+	(wire
+		(pts
+			(xy 63.754 48.006) (xy 66.802 48.006)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c96309-2f25-477b-9962-5fb171e5adb7")
+	)
+	(wire
+		(pts
+			(xy 75.438 29.972) (xy 75.438 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f8816f-9410-405b-a35f-5469cbba2f78")
+	)
+	(wire
+		(pts
+			(xy 24.384 54.864) (xy 27.94 54.864)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c0faad-fcfb-449f-bcd0-b8fd808f7155")
+	)
+	(wire
+		(pts
+			(xy 34.544 25.654) (xy 37.592 25.654)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a42422-034d-4060-8e5c-fd92c0d4b28a")
+	)
+	(wire
+		(pts
+			(xy 34.544 23.114) (xy 36.83 23.114)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a2ef70-4fa6-4782-bc46-646fa2f9f7c3")
+	)
+	(wire
+		(pts
+			(xy 33.02 46.99) (xy 33.02 49.784)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e060634c-52b1-416e-bbd7-6db0f9395862")
+	)
+	(wire
+		(pts
+			(xy 75.438 30.48) (xy 80.772 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5c52d2-5eaf-4921-a5c8-ebf6797dbe6a")
+	)
+	(wire
+		(pts
+			(xy 33.782 46.99) (xy 33.02 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6df01a9-8576-4dab-a564-b33dad7a1b0f")
+	)
+	(polyline
+		(pts
+			(xy 255.3992 21.4161) (xy 255.4581 21.4187) (xy 255.5174 21.4239) (xy 255.5771 21.4316) (xy 255.6373 21.442)
+			(xy 255.6978 21.4549) (xy 255.7588 21.4704) (xy 255.8202 21.4884) (xy 255.8821 21.5091) (xy 256.007 21.5581)
+			(xy 256.1336 21.6174) (xy 256.1899 21.6592) (xy 256.2438 21.7019) (xy 256.2951 21.7454) (xy 256.344 21.7898)
+			(xy 256.3904 21.8349) (xy 256.4343 21.8809) (xy 256.4756 21.9277) (xy 256.5145 21.9754) (xy 256.5509 22.0239)
+			(xy 256.5848 22.0732) (xy 256.6162 22.1233) (xy 256.645 22.1743) (xy 256.6714 22.2261) (xy 256.6953 22.2787)
+			(xy 256.7167 22.3322) (xy 256.7356 22.3864) (xy 256.752 22.4416) (xy 256.7659 22.4975) (xy 256.7773 22.5543)
+			(xy 256.7863 22.6118) (xy 256.7927 22.6703) (xy 256.7966 22.7295) (xy 256.798 22.7896) (xy 256.7969 22.8505)
+			(xy 256.7934 22.9122) (xy 256.7873 22.9748) (xy 256.7787 23.0382) (xy 256.7677 23.1024) (xy 256.7541 23.1675)
+			(xy 256.7381 23.2333) (xy 256.7195 23.3) (xy 256.6984 23.3676) (xy 256.6692 23.4305) (xy 256.6377 23.4914)
+			(xy 256.6041 23.5501) (xy 256.5682 23.6066) (xy 256.5302 23.661) (xy 256.49 23.7132) (xy 256.4475 23.7633)
+			(xy 256.4029 23.8113) (xy 256.3561 23.8571) (xy 256.3071 23.9007) (xy 256.2559 23.9423) (xy 256.2025 23.9816)
+			(xy 256.1469 24.0189) (xy 256.0891 24.0539) (xy 256.0291 24.0869) (xy 255.9669 24.1177) (xy 255.8903 24.1428)
+			(xy 255.8134 24.1664) (xy 255.7363 24.1884) (xy 255.6589 24.2089) (xy 255.5812 24.2278) (xy 255.5032 24.2451)
+			(xy 255.425 24.2609) (xy 255.3464 24.2751) (xy 248.8086 35.5913) (xy 248.7886 35.6148) (xy 248.7679 35.6372)
+			(xy 248.7466 35.6586) (xy 248.7247 35.6789) (xy 248.7021 35.6982) (xy 248.6788 35.7165) (xy 248.6549 35.7337)
+			(xy 248.6303 35.7498) (xy 248.6051 35.7649) (xy 248.5793 35.779) (xy 248.5527 35.792) (xy 248.5256 35.804)
+			(xy 248.4977 35.8149) (xy 248.4693 35.8248) (xy 248.4402 35.8336) (xy 248.4104 35.8414) (xy 245.8452 35.8507)
+			(xy 243.2801 35.8414) (xy 243.2275 35.8273) (xy 243.1774 35.8107) (xy 243.1299 35.7917) (xy 243.0849 35.77)
+			(xy 243.0425 35.7459) (xy 243.0025 35.7192) (xy 242.9652 35.69) (xy 242.9303 35.6583) (xy 242.898 35.624)
+			(xy 242.8683 35.5872) (xy 242.841 35.5479) (xy 242.8164 35.5061) (xy 242.7942 35.4617) (xy 242.7746 35.4149)
+			(xy 242.7575 35.3655) (xy 242.743 35.3135) (xy 242.743 35.0542) (xy 242.7621 35.0015) (xy 242.7827 34.9493)
+			(xy 242.8048 34.8976) (xy 242.8284 34.8464) (xy 242.8534 34.7957) (xy 242.8799 34.7456) (xy 242.908 34.6959)
+			(xy 242.9375 34.6468) (xy 246.3083 28.8312) (xy 246.6052 29.0034) (xy 246.9002 29.1781) (xy 247.1933 29.3553)
+			(xy 247.4843 29.535) (xy 244.6321 34.4708) (xy 245.4424 34.4789) (xy 246.2527 34.4801) (xy 247.063 34.4743)
+			(xy 247.8733 34.4616) (xy 254.1704 23.5528) (xy 254.1206 23.4445) (xy 254.0787 23.3369) (xy 254.0445 23.2301)
+			(xy 254.0182 23.1239) (xy 253.9996 23.0184) (xy 253.9888 22.9136) (xy 253.9858 22.8096) (xy 253.9906 22.7062)
+			(xy 254.0032 22.6035) (xy 254.0235 22.5015) (xy 254.0517 22.4003) (xy 254.0876 22.2997) (xy 254.1313 22.1998)
+			(xy 254.1829 22.1007) (xy 254.2422 22.0022) (xy 254.3093 21.9044) (xy 254.4107 21.8093) (xy 254.5138 21.7244)
+			(xy 254.566 21.6858) (xy 254.6186 21.6498) (xy 254.6717 21.6164) (xy 254.7251 21.5855) (xy 254.779 21.5572)
+			(xy 254.8333 21.5315) (xy 254.888 21.5084) (xy 254.9431 21.4878) (xy 254.9986 21.4699) (xy 255.0546 21.4544)
+			(xy 255.111 21.4416) (xy 255.1678 21.4314) (xy 255.225 21.4237) (xy 255.2826 21.4186) (xy 255.3407 21.416)
+			(xy 255.3992 21.4161)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 253 179 2 1)
+		)
+		(uuid 03cdc7ca-aaec-4dbf-b614-dfef06b37952)
+	)
+	(polyline
+		(pts
+			(xy 256.2447 38.6287) (xy 252.2071 38.6287) (xy 252.2071 40.2678) (xy 252.2164 41.9069) (xy 252.2252 41.9327)
+			(xy 252.2352 41.9571) (xy 252.2465 41.9801) (xy 252.259 42.0018) (xy 252.2726 42.0222) (xy 252.2875 42.0412)
+			(xy 252.2954 42.0502) (xy 252.3037 42.0588) (xy 252.3122 42.0672) (xy 252.321 42.0751) (xy 252.3301 42.0828)
+			(xy 252.3395 42.0901) (xy 252.3493 42.0971) (xy 252.3593 42.1037) (xy 252.3803 42.116) (xy 252.4025 42.1269)
+			(xy 252.4259 42.1364) (xy 252.4506 42.1446) (xy 252.4764 42.1515) (xy 252.5035 42.157) (xy 254.3741 42.1662)
+			(xy 256.2447 42.1662) (xy 256.2447 43.1849) (xy 254.3093 43.1849) (xy 252.3738 43.1756) (xy 252.2477 43.1503)
+			(xy 252.1284 43.1183) (xy 252.016 43.0796) (xy 251.9624 43.0576) (xy 251.9105 43.0341) (xy 251.8603 43.0088)
+			(xy 251.8118 42.9818) (xy 251.765 42.9532) (xy 251.72 42.9229) (xy 251.6767 42.8908) (xy 251.635 42.8571)
+			(xy 251.5951 42.8218) (xy 251.5569 42.7847) (xy 251.5205 42.746) (xy 251.4857 42.7055) (xy 251.4527 42.6634)
+			(xy 251.4213 42.6196) (xy 251.3917 42.5741) (xy 251.3638 42.5269) (xy 251.3377 42.4781) (xy 251.3132 42.4275)
+			(xy 251.2904 42.3753) (xy 251.2694 42.3214) (xy 251.2325 42.2085) (xy 251.2024 42.0889) (xy 251.1792 41.9625)
+			(xy 251.17 39.9808) (xy 251.1792 37.999) (xy 251.1934 37.9553) (xy 251.2096 37.914) (xy 251.2278 37.8751)
+			(xy 251.2481 37.8387) (xy 251.259 37.8214) (xy 251.2704 37.8047) (xy 251.2824 37.7886) (xy 251.2948 37.7731)
+			(xy 251.3078 37.7582) (xy 251.3213 37.744) (xy 251.3353 37.7303) (xy 251.3498 37.7173) (xy 251.3648 37.7049)
+			(xy 251.3803 37.6931) (xy 251.3963 37.6819) (xy 251.4129 37.6713) (xy 251.43 37.6613) (xy 251.4475 37.6519)
+			(xy 251.4656 37.6431) (xy 251.4842 37.635) (xy 251.523 37.6205) (xy 251.5638 37.6084) (xy 251.6066 37.5988)
+			(xy 251.6515 37.5916) (xy 256.2447 37.5916) (xy 256.2447 38.6287)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 66 66 66 1)
+		)
+		(uuid 2a8b1ce1-f75b-496f-8b21-89b8153d08b3)
+	)
+	(polyline
+		(pts
+			(xy 255.0038 46.176) (xy 255.01 46.2229) (xy 255.0151 46.2699) (xy 255.0191 46.3172) (xy 255.022 46.3646)
+			(xy 255.0238 46.4121) (xy 255.0244 46.4598) (xy 255.0239 46.5077) (xy 255.0223 46.5557) (xy 248.9475 46.5557)
+			(xy 248.9475 46.1667) (xy 251.9756 46.1667) (xy 255.0038 46.176)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 70 70 70 1)
+		)
+		(uuid 3d71c35d-be9c-4357-acd8-17a987fd916d)
+	)
+	(polyline
+		(pts
+			(xy 272.5615 42.1662) (xy 276.6732 42.1662) (xy 276.6732 43.1849) (xy 274.284 43.1849) (xy 271.8948 43.1756)
+			(xy 271.8571 43.1627) (xy 271.8214 43.148) (xy 271.7878 43.1316) (xy 271.7562 43.1134) (xy 271.7265 43.0935)
+			(xy 271.7125 43.0829) (xy 271.6989 43.0718) (xy 271.6859 43.0603) (xy 271.6733 43.0484) (xy 271.6613 43.036)
+			(xy 271.6498 43.0232) (xy 271.6387 43.01) (xy 271.6282 42.9963) (xy 271.6182 42.9822) (xy 271.6086 42.9676)
+			(xy 271.5996 42.9526) (xy 271.5911 42.9372) (xy 271.5756 42.9051) (xy 271.5621 42.8711) (xy 271.5506 42.8355)
+			(xy 271.5411 42.7981) (xy 271.5336 42.7589) (xy 271.5243 40.1752) (xy 271.5244 37.5916) (xy 272.5615 37.5916)
+			(xy 272.5615 42.1662)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 66 66 66 1)
+		)
+		(uuid 4d788e98-9f0a-47f9-9077-2f8549728c5b)
+	)
+	(polyline
+		(pts
+			(xy 257.7405 37.5189) (xy 257.7825 37.5234) (xy 257.8231 37.5305) (xy 257.8623 37.5401) (xy 257.9 37.5523)
+			(xy 257.9363 37.567) (xy 257.9711 37.5843) (xy 258.0046 37.6041) (xy 258.0366 37.6264) (xy 258.0671 37.6513)
+			(xy 258.0963 37.6787) (xy 258.124 37.7087) (xy 258.1503 37.7412) (xy 258.1752 37.7762) (xy 258.1986 37.8138)
+			(xy 259.3249 39.7885) (xy 260.4582 41.7588) (xy 262.7548 37.7583) (xy 262.7761 37.7337) (xy 262.7976 37.7105)
+			(xy 262.8193 37.6886) (xy 262.8413 37.668) (xy 262.8634 37.6488) (xy 262.8858 37.631) (xy 262.9084 37.6144)
+			(xy 262.9312 37.5993) (xy 262.9542 37.5854) (xy 262.9774 37.5729) (xy 263.0008 37.5618) (xy 263.0245 37.552)
+			(xy 263.0483 37.5435) (xy 263.0724 37.5364) (xy 263.0967 37.5306) (xy 263.1212 37.5262) (xy 263.1459 37.5231)
+			(xy 263.1708 37.5213) (xy 263.1959 37.5209) (xy 263.2213 37.5219) (xy 263.2468 37.5241) (xy 263.2726 37.5278)
+			(xy 263.2986 37.5327) (xy 263.3248 37.539) (xy 263.3512 37.5467) (xy 263.3778 37.5557) (xy 263.4046 37.566)
+			(xy 263.4316 37.5777) (xy 263.4589 37.5907) (xy 263.4863 37.6051) (xy 263.514 37.6208) (xy 263.5419 37.6379)
+			(xy 263.5602 37.6555) (xy 263.5775 37.6736) (xy 263.5939 37.6922) (xy 263.6093 37.7113) (xy 263.6237 37.7309)
+			(xy 263.6371 37.751) (xy 263.6496 37.7717) (xy 263.6611 37.7928) (xy 263.6716 37.8145) (xy 263.6811 37.8367)
+			(xy 263.6897 37.8593) (xy 263.6973 37.8825) (xy 263.7039 37.9063) (xy 263.7095 37.9305) (xy 263.7142 37.9552)
+			(xy 263.7178 37.9805) (xy 263.7271 40.5827) (xy 263.7271 43.1849) (xy 262.6899 43.1849) (xy 262.69 41.5458)
+			(xy 262.6807 39.9067) (xy 261.7882 41.4694) (xy 260.9027 43.0367) (xy 260.8865 43.0569) (xy 260.87 43.0763)
+			(xy 260.8532 43.0947) (xy 260.8362 43.1122) (xy 260.8188 43.1288) (xy 260.8012 43.1444) (xy 260.7833 43.1592)
+			(xy 260.7652 43.173) (xy 260.7467 43.186) (xy 260.728 43.198) (xy 260.709 43.2091) (xy 260.6897 43.2193)
+			(xy 260.6701 43.2286) (xy 260.6503 43.2369) (xy 260.6302 43.2444) (xy 260.6097 43.2509) (xy 260.5891 43.2565)
+			(xy 260.5681 43.2612) (xy 260.5468 43.265) (xy 260.5253 43.2679) (xy 260.5035 43.2699) (xy 260.4814 43.2709)
+			(xy 260.4591 43.271) (xy 260.4364 43.2703) (xy 260.4135 43.2686) (xy 260.3903 43.266) (xy 260.3668 43.2625)
+			(xy 260.343 43.258) (xy 260.319 43.2527) (xy 260.2947 43.2464) (xy 260.2701 43.2393) (xy 260.2452 43.2312)
+			(xy 260.2311 43.2238) (xy 260.2174 43.2161) (xy 260.2038 43.208) (xy 260.1905 43.1997) (xy 260.1775 43.191)
+			(xy 260.1647 43.182) (xy 260.1522 43.1726) (xy 260.1399 43.1629) (xy 260.1279 43.1529) (xy 260.1161 43.1426)
+			(xy 260.1046 43.132) (xy 260.0933 43.121) (xy 260.0823 43.1097) (xy 260.0715 43.098) (xy 260.061 43.086)
+			(xy 260.0507 43.0737) (xy 258.2542 39.9252) (xy 258.2449 41.555) (xy 258.2449 43.1849) (xy 257.2078 43.1849)
+			(xy 257.2078 40.5734) (xy 257.217 37.962) (xy 257.2275 37.9173) (xy 257.2403 37.8748) (xy 257.2553 37.8346)
+			(xy 257.2724 37.7966) (xy 257.2919 37.7609) (xy 257.3135 37.7275) (xy 257.3374 37.6963) (xy 257.3501 37.6815)
+			(xy 257.3635 37.6674) (xy 257.3773 37.6538) (xy 257.3918 37.6407) (xy 257.4068 37.6282) (xy 257.4223 37.6163)
+			(xy 257.4551 37.5942) (xy 257.4901 37.5743) (xy 257.5273 37.5567) (xy 257.5667 37.5414) (xy 257.6084 37.5283)
+			(xy 257.6523 37.5175) (xy 257.6971 37.5169) (xy 257.7405 37.5189)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 66 66 66 1)
+		)
+		(uuid 5e6d725c-1017-4393-8bd9-7d9174cb1b56)
+	)
+	(polyline
+		(pts
+			(xy 255.8002 40.9068) (xy 252.5776 40.9068) (xy 252.5776 39.8696) (xy 255.8002 39.8696) (xy 255.8002 40.9068)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 66 66 66 1)
+		)
+		(uuid 62816abc-1a5f-4424-855e-171811f2c52e)
+	)
+	(polyline
+		(pts
+			(xy 272.1541 46.1389) (xy 272.1603 46.1858) (xy 272.1654 46.2329) (xy 272.1694 46.2801) (xy 272.1723 46.3275)
+			(xy 272.1741 46.3751) (xy 272.1747 46.4228) (xy 272.1742 46.4706) (xy 272.1726 46.5186) (xy 266.0978 46.5186)
+			(xy 266.0962 46.4695) (xy 266.0958 46.4204) (xy 266.0965 46.3716) (xy 266.0983 46.3229) (xy 266.1012 46.2744)
+			(xy 266.1051 46.226) (xy 266.1102 46.1778) (xy 266.1163 46.1297) (xy 269.1352 46.1297) (xy 272.1541 46.1389)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 70 70 70 1)
+		)
+		(uuid 64ed40e5-2453-4ba3-81f1-b30808683f80)
+	)
+	(polyline
+		(pts
+			(xy 259.3562 45.4166) (xy 259.3469 46.9631) (xy 259.3282 47.0636) (xy 259.3041 47.1592) (xy 259.2748 47.2501)
+			(xy 259.2402 47.336) (xy 259.2003 47.4172) (xy 259.155 47.4935) (xy 259.1045 47.565) (xy 259.0773 47.5989)
+			(xy 259.0487 47.6317) (xy 259.0188 47.6632) (xy 258.9876 47.6935) (xy 258.9212 47.7505) (xy 258.8495 47.8027)
+			(xy 258.7725 47.85) (xy 258.6902 47.8925) (xy 258.6027 47.9302) (xy 258.5098 47.963) (xy 258.4116 47.991)
+			(xy 258.3299 48.0033) (xy 258.2497 48.0108) (xy 258.1711 48.0138) (xy 258.094 48.0121) (xy 258.0185 48.0058)
+			(xy 257.9446 47.9948) (xy 257.8722 47.9792) (xy 257.8014 47.9589) (xy 257.7321 47.934) (xy 257.6644 47.9045)
+			(xy 257.5983 47.8703) (xy 257.5337 47.8315) (xy 257.4707 47.7881) (xy 257.4093 47.74) (xy 257.3494 47.6872)
+			(xy 257.2911 47.6299) (xy 257.2633 47.5903) (xy 257.2371 47.5501) (xy 257.2124 47.5093) (xy 257.1893 47.468)
+			(xy 257.1677 47.426) (xy 257.1476 47.3835) (xy 257.1291 47.3404) (xy 257.1121 47.2967) (xy 257.0967 47.2525)
+			(xy 257.0828 47.2076) (xy 257.0705 47.1621) (xy 257.0596 47.1161) (xy 257.0504 47.0695) (xy 257.0426 47.0223)
+			(xy 257.0365 46.9745) (xy 257.0318 46.9261) (xy 257.026 46.6159) (xy 257.0226 46.3057) (xy 257.0214 45.9955)
+			(xy 257.0226 45.6852) (xy 257.5967 45.6852) (xy 257.5945 46.0096) (xy 257.5984 46.3338) (xy 257.6084 46.6578)
+			(xy 257.6245 46.9816) (xy 257.6321 47.0153) (xy 257.6405 47.0478) (xy 257.6498 47.079) (xy 257.66 47.109)
+			(xy 257.6711 47.1378) (xy 257.6831 47.1654) (xy 257.6959 47.1918) (xy 257.7096 47.2169) (xy 257.7242 47.2408)
+			(xy 257.7396 47.2635) (xy 257.7559 47.285) (xy 257.7731 47.3052) (xy 257.7912 47.3243) (xy 257.8101 47.3421)
+			(xy 257.8299 47.3587) (xy 257.8506 47.3741) (xy 257.8722 47.3882) (xy 257.8946 47.4011) (xy 257.9179 47.4128)
+			(xy 257.9421 47.4233) (xy 257.9672 47.4326) (xy 257.9931 47.4406) (xy 258.0199 47.4475) (xy 258.0476 47.4531)
+			(xy 258.0762 47.4574) (xy 258.1056 47.4606) (xy 258.1359 47.4625) (xy 258.1671 47.4633) (xy 258.1991 47.4628)
+			(xy 258.232 47.461) (xy 258.2658 47.4581) (xy 258.3005 47.4539) (xy 258.3521 47.4378) (xy 258.4007 47.419)
+			(xy 258.4239 47.4087) (xy 258.4464 47.3978) (xy 258.4681 47.3862) (xy 258.4891 47.3739) (xy 258.5094 47.3611)
+			(xy 258.5289 47.3476) (xy 258.5477 47.3334) (xy 258.5658 47.3187) (xy 258.5831 47.3032) (xy 258.5997 47.2872)
+			(xy 258.6156 47.2705) (xy 258.6307 47.2532) (xy 258.6451 47.2352) (xy 258.6587 47.2166) (xy 258.6717 47.1973)
+			(xy 258.6838 47.1775) (xy 258.6953 47.1569) (xy 258.706 47.1358) (xy 258.716 47.114) (xy 258.7253 47.0915)
+			(xy 258.7338 47.0685) (xy 258.7415 47.0447) (xy 258.7549 46.9954) (xy 258.7653 46.9435) (xy 258.7728 46.889)
+			(xy 258.782 45.3796) (xy 258.782 43.8701) (xy 259.3562 43.8701) (xy 259.3562 45.4166)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 66 66 66 1)
+		)
+		(uuid 74d9a9f1-f1c9-4718-95c7-7b8bda9f0311)
+	)
+	(polyline
+		(pts
+			(xy 269.876 37.6008) (xy 269.929 37.6071) (xy 269.9791 37.6165) (xy 270.003 37.6224) (xy 270.0262 37.629)
+			(xy 270.0486 37.6364) (xy 270.0702 37.6446) (xy 270.0912 37.6536) (xy 270.1114 37.6633) (xy 270.1308 37.6738)
+			(xy 270.1495 37.6851) (xy 270.1674 37.6971) (xy 270.1846 37.71) (xy 270.2011 37.7236) (xy 270.2168 37.7379)
+			(xy 270.2317 37.7531) (xy 270.246 37.769) (xy 270.2594 37.7857) (xy 270.2722 37.8032) (xy 270.2841 37.8214)
+			(xy 270.2954 37.8404) (xy 270.3059 37.8602) (xy 270.3156 37.8808) (xy 270.3246 37.9021) (xy 270.3329 37.9242)
+			(xy 270.3404 37.9471) (xy 270.3472 37.9708) (xy 270.3585 38.0204) (xy 270.3668 38.0731) (xy 270.3761 40.629)
+			(xy 270.3761 43.1849) (xy 269.3389 43.1849) (xy 269.3389 41.8328) (xy 265.8014 41.8328) (xy 265.8014 43.1849)
+			(xy 264.7828 43.1849) (xy 264.7828 41.6199) (xy 264.789 40.5772) (xy 265.7989 40.5772) (xy 265.799 40.6864)
+			(xy 265.8014 40.7957) (xy 269.3389 40.7957) (xy 269.3389 38.6287) (xy 267.4313 38.6287) (xy 267.3808 38.6371)
+			(xy 267.3302 38.646) (xy 267.2794 38.6556) (xy 267.2286 38.6657) (xy 267.1776 38.6764) (xy 267.1265 38.6877)
+			(xy 267.0238 38.7121) (xy 266.9084 38.7474) (xy 266.7986 38.788) (xy 266.6943 38.8341) (xy 266.5957 38.8856)
+			(xy 266.5026 38.9425) (xy 266.4151 39.0048) (xy 266.3332 39.0725) (xy 266.2569 39.1456) (xy 266.1862 39.2242)
+			(xy 266.1211 39.3081) (xy 266.0616 39.3974) (xy 266.0076 39.4922) (xy 265.9593 39.5923) (xy 265.9165 39.6979)
+			(xy 265.8793 39.8088) (xy 265.8477 39.9252) (xy 265.8337 40.0335) (xy 265.822 40.1419) (xy 265.8127 40.2505)
+			(xy 265.8058 40.3593) (xy 265.8012 40.4682) (xy 265.7989 40.5772) (xy 264.789 40.5772) (xy 264.7921 40.0548)
+			(xy 264.8267 39.8368) (xy 264.8728 39.6283) (xy 264.9304 39.4294) (xy 264.9996 39.24) (xy 265.0803 39.0602)
+			(xy 265.1725 38.8899) (xy 265.2762 38.7291) (xy 265.3914 38.578) (xy 265.5181 38.4363) (xy 265.6563 38.3042)
+			(xy 265.8061 38.1816) (xy 265.9674 38.0686) (xy 266.1401 37.9651) (xy 266.3244 37.8712) (xy 266.5202 37.7868)
+			(xy 266.7275 37.712) (xy 266.8242 37.6879) (xy 266.9211 37.6664) (xy 267.0181 37.6475) (xy 267.1153 37.6311)
+			(xy 267.2126 37.6174) (xy 267.3101 37.6062) (xy 267.4076 37.5976) (xy 267.5054 37.5916) (xy 268.6907 37.5916)
+			(xy 269.876 37.6008)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 66 66 66 1)
+		)
+		(uuid 7c1eee40-3812-403a-88fb-303c1fd2e905)
+	)
+	(polyline
+		(pts
+			(xy 264.2272 46.3519) (xy 264.2179 47.4447) (xy 264.2072 47.5147) (xy 264.1929 47.5819) (xy 264.1751 47.6464)
+			(xy 264.1536 47.708) (xy 264.1285 47.7669) (xy 264.0999 47.8231) (xy 264.0676 47.8764) (xy 264.0318 47.927)
+			(xy 263.9924 47.9748) (xy 263.9494 48.0198) (xy 263.9028 48.0621) (xy 263.8526 48.1016) (xy 263.7988 48.1383)
+			(xy 263.7415 48.1722) (xy 263.6805 48.2034) (xy 263.616 48.2318) (xy 263.5651 48.2481) (xy 263.5142 48.2634)
+			(xy 263.4633 48.2777) (xy 263.4124 48.2909) (xy 263.3614 48.3032) (xy 263.3105 48.3144) (xy 263.2595 48.3245)
+			(xy 263.2085 48.3337) (xy 262.727 48.3337) (xy 262.727 47.7966) (xy 262.8093 47.7999) (xy 262.8912 47.7999)
+			(xy 262.9728 47.7967) (xy 263.054 47.7903) (xy 263.1348 47.7805) (xy 263.2153 47.7675) (xy 263.2954 47.7513)
+			(xy 263.3752 47.7317) (xy 263.4062 47.7165) (xy 263.4352 47.7) (xy 263.4491 47.6912) (xy 263.4624 47.6822)
+			(xy 263.4753 47.6728) (xy 263.4877 47.6631) (xy 263.4997 47.6531) (xy 263.5111 47.6427) (xy 263.5221 47.632)
+			(xy 263.5326 47.621) (xy 263.5427 47.6097) (xy 263.5523 47.5981) (xy 263.5614 47.5861) (xy 263.57 47.5738)
+			(xy 263.5781 47.5612) (xy 263.5858 47.5483) (xy 263.593 47.535) (xy 263.5998 47.5215) (xy 263.606 47.5076)
+			(xy 263.6118 47.4934) (xy 263.6171 47.4788) (xy 263.622 47.464) (xy 263.6264 47.4488) (xy 263.6303 47.4333)
+			(xy 263.6337 47.4175) (xy 263.6366 47.4013) (xy 263.6411 47.3681) (xy 263.6438 47.3335) (xy 263.653 46.2964)
+			(xy 263.653 45.2592) (xy 264.2272 45.2592) (xy 264.2272 46.3519)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 66 66 66 1)
+		)
+		(uuid 95ade93c-9f39-4681-b7de-3722134904c2)
+	)
+	(polyline
+		(pts
+			(xy 247.142 37.592) (xy 248.1744 37.6023) (xy 249.2068 37.6194) (xy 249.3103 37.6463) (xy 249.408 37.6786)
+			(xy 249.5001 37.7161) (xy 249.5441 37.7369) (xy 249.5865 37.7589) (xy 249.6276 37.7823) (xy 249.6672 37.807)
+			(xy 249.7055 37.833) (xy 249.7423 37.8604) (xy 249.7776 37.889) (xy 249.8116 37.919) (xy 249.8441 37.9503)
+			(xy 249.8752 37.9829) (xy 249.9049 38.0169) (xy 249.9331 38.0521) (xy 249.9599 38.0887) (xy 249.9853 38.1266)
+			(xy 250.0093 38.1658) (xy 250.0319 38.2063) (xy 250.053 38.2482) (xy 250.0727 38.2914) (xy 250.091 38.3359)
+			(xy 250.1079 38.3817) (xy 250.1373 38.4773) (xy 250.1611 38.5782) (xy 250.1791 38.6843) (xy 250.1861 38.9436)
+			(xy 250.1884 39.2029) (xy 250.1861 39.4622) (xy 250.1791 39.7215) (xy 250.1549 39.8725) (xy 250.1225 40.0165)
+			(xy 250.0821 40.1536) (xy 250.0335 40.2838) (xy 249.9768 40.4071) (xy 249.912 40.5234) (xy 249.8391 40.6328)
+			(xy 249.7581 40.7352) (xy 249.6689 40.8307) (xy 249.5717 40.9193) (xy 249.4663 41.0009) (xy 249.3529 41.0756)
+			(xy 249.2313 41.1434) (xy 249.1016 41.2042) (xy 248.9638 41.2581) (xy 248.8178 41.305) (xy 248.7604 41.3171)
+			(xy 248.7029 41.3284) (xy 248.6452 41.3388) (xy 248.5874 41.3485) (xy 248.5294 41.3574) (xy 248.4714 41.3654)
+			(xy 248.4131 41.3726) (xy 248.3548 41.3791) (xy 248.8703 41.8321) (xy 249.3879 42.2826) (xy 249.9075 42.7304)
+			(xy 250.4291 43.1756) (xy 250.0309 43.1826) (xy 249.6327 43.1849) (xy 249.2346 43.1826) (xy 248.8364 43.1756)
+			(xy 248.3147 42.7304) (xy 247.7951 42.2826) (xy 247.2775 41.8321) (xy 246.762 41.3791) (xy 246.5769 41.3733)
+			(xy 246.3917 41.3698) (xy 246.2064 41.3686) (xy 246.0212 41.3698) (xy 246.0212 40.3327) (xy 247.2251 40.3327)
+			(xy 248.4289 40.3234) (xy 248.4922 40.3123) (xy 248.5529 40.298) (xy 248.611 40.2805) (xy 248.6663 40.2597)
+			(xy 248.7191 40.2358) (xy 248.7691 40.2085) (xy 248.8165 40.1781) (xy 248.8612 40.1444) (xy 248.9033 40.1074)
+			(xy 248.9427 40.0673) (xy 248.9795 40.0239) (xy 249.0136 39.9773) (xy 249.045 39.9274) (xy 249.0738 39.8744)
+			(xy 249.1 39.8181) (xy 249.1234 39.7585) (xy 249.1335 39.6292) (xy 249.1414 39.4998) (xy 249.1471 39.3703)
+			(xy 249.1505 39.2407) (xy 249.1517 39.111) (xy 249.1507 38.9812) (xy 249.1474 38.8513) (xy 249.1419 38.7213)
+			(xy 249.1376 38.7138) (xy 249.1329 38.7065) (xy 249.128 38.6995) (xy 249.1228 38.6929) (xy 249.1174 38.6866)
+			(xy 249.1116 38.6806) (xy 249.1057 38.6749) (xy 249.0994 38.6695) (xy 249.0929 38.6645) (xy 249.0862 38.6598)
+			(xy 249.0791 38.6553) (xy 249.0719 38.6512) (xy 249.0643 38.6475) (xy 249.0565 38.644) (xy 249.0484 38.6408)
+			(xy 249.0401 38.638) (xy 247.3362 38.6287) (xy 245.6322 38.6287) (xy 245.6322 43.1849) (xy 244.5951 43.1849)
+			(xy 244.5951 40.6105) (xy 244.6043 38.0361) (xy 244.6157 37.9884) (xy 244.6295 37.9434) (xy 244.6457 37.9011)
+			(xy 244.6547 37.8809) (xy 244.6643 37.8614) (xy 244.6745 37.8425) (xy 244.6854 37.8244) (xy 244.6968 37.8068)
+			(xy 244.7088 37.79) (xy 244.7215 37.7737) (xy 244.7347 37.7582) (xy 244.7486 37.7433) (xy 244.763 37.7291)
+			(xy 244.7781 37.7155) (xy 244.7938 37.7026) (xy 244.81 37.6904) (xy 244.8269 37.6788) (xy 244.8444 37.6679)
+			(xy 244.8625 37.6577) (xy 244.8812 37.6481) (xy 244.9005 37.6392) (xy 244.9204 37.6309) (xy 244.9409 37.6233)
+			(xy 244.9837 37.6101) (xy 245.029 37.5995) (xy 245.0766 37.5916) (xy 246.1094 37.5884) (xy 247.142 37.592)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 66 66 66 1)
+		)
+		(uuid 9956e7d0-8791-46f6-a9db-6e563b0a5513)
+	)
+	(polyline
+		(pts
+			(xy 255.7517 13.6105) (xy 255.7946 13.6161) (xy 255.8363 13.6238) (xy 255.8769 13.6338) (xy 255.9163 13.6459)
+			(xy 255.9545 13.6601) (xy 255.9916 13.6765) (xy 256.0275 13.6951) (xy 256.0622 13.7159) (xy 256.0958 13.7388)
+			(xy 256.1281 13.7639) (xy 256.1594 13.7912) (xy 256.1894 13.8206) (xy 256.2183 13.8522) (xy 256.2459 13.886)
+			(xy 256.2725 13.922) (xy 258.6994 18.0165) (xy 261.1157 22.1174) (xy 261.1277 22.1557) (xy 261.1377 22.1939)
+			(xy 261.1457 22.232) (xy 261.1518 22.27) (xy 261.1558 22.3079) (xy 261.1579 22.3458) (xy 261.158 22.3835)
+			(xy 261.1561 22.4212) (xy 261.1522 22.4588) (xy 261.1463 22.4963) (xy 261.1384 22.5337) (xy 261.1286 22.571)
+			(xy 261.1168 22.6082) (xy 261.103 22.6453) (xy 261.0872 22.6824) (xy 261.0694 22.7193) (xy 254.3 34.4708)
+			(xy 255.1133 34.4789) (xy 255.9262 34.48) (xy 256.7385 34.4742) (xy 257.5504 34.4616) (xy 259.8839 30.4148)
+			(xy 261.4676 30.4148) (xy 265.1069 30.424) (xy 268.7462 30.4148) (xy 265.1347 24.0899) (xy 261.4676 30.4148)
+			(xy 259.8839 30.4148) (xy 261.0346 28.4192) (xy 264.5328 22.386) (xy 264.5535 22.3553) (xy 264.5748 22.326)
+			(xy 264.5965 22.2981) (xy 264.6186 22.2715) (xy 264.6413 22.2463) (xy 264.6644 22.2224) (xy 264.688 22.1999)
+			(xy 264.712 22.1788) (xy 264.7366 22.1591) (xy 264.7616 22.1407) (xy 264.7871 22.1236) (xy 264.813 22.1079)
+			(xy 264.8394 22.0936) (xy 264.8663 22.0807) (xy 264.8937 22.0691) (xy 264.9215 22.0588) (xy 264.9498 22.05)
+			(xy 264.9786 22.0425) (xy 265.0079 22.0363) (xy 265.0376 22.0315) (xy 265.0678 22.0281) (xy 265.0985 22.0261)
+			(xy 265.1296 22.0254) (xy 265.1612 22.026) (xy 265.1933 22.0281) (xy 265.2258 22.0314) (xy 265.2588 22.0362)
+			(xy 265.2923 22.0423) (xy 265.3263 22.0498) (xy 265.3607 22.0586) (xy 265.3956 22.0688) (xy 265.431 22.0804)
+			(xy 265.453 22.0913) (xy 265.4744 22.1029) (xy 265.4953 22.1151) (xy 265.5156 22.1279) (xy 265.5355 22.1414)
+			(xy 265.5547 22.1555) (xy 265.5735 22.1702) (xy 265.5917 22.1855) (xy 265.6094 22.2014) (xy 265.6265 22.218)
+			(xy 265.6431 22.2352) (xy 265.6592 22.253) (xy 265.6747 22.2714) (xy 265.6897 22.2904) (xy 265.7042 22.3101)
+			(xy 265.7181 22.3304) (xy 268.1515 26.5861) (xy 270.5706 30.85) (xy 270.5863 30.9354) (xy 270.5955 31.0169)
+			(xy 270.5977 31.0562) (xy 270.5983 31.0945) (xy 270.5972 31.1318) (xy 270.5945 31.1682) (xy 270.5902 31.2036)
+			(xy 270.5843 31.238) (xy 270.5767 31.2714) (xy 270.5676 31.3039) (xy 270.5567 31.3354) (xy 270.5443 31.3659)
+			(xy 270.5303 31.3954) (xy 270.5146 31.424) (xy 270.4973 31.4516) (xy 270.4783 31.4782) (xy 270.4578 31.5038)
+			(xy 270.4356 31.5284) (xy 270.4118 31.5521) (xy 270.3864 31.5748) (xy 270.3593 31.5966) (xy 270.3306 31.6173)
+			(xy 270.3003 31.6371) (xy 270.2684 31.6559) (xy 270.2348 31.6737) (xy 270.1997 31.6906) (xy 270.1244 31.7214)
+			(xy 270.0427 31.7483) (xy 260.6897 31.776) (xy 259.6073 33.6443) (xy 258.532 35.5172) (xy 258.5117 35.549)
+			(xy 258.4904 35.5792) (xy 258.4679 35.6079) (xy 258.4444 35.635) (xy 258.4198 35.6606) (xy 258.3942 35.6847)
+			(xy 258.3674 35.7072) (xy 258.3396 35.7283) (xy 258.3107 35.7478) (xy 258.2807 35.7657) (xy 258.2497 35.7821)
+			(xy 258.2175 35.797) (xy 258.1843 35.8104) (xy 258.15 35.8223) (xy 258.1147 35.8326) (xy 258.0782 35.8414)
+			(xy 255.5224 35.8506) (xy 254.8644 35.8506) (xy 254.2068 35.8459) (xy 253.5494 35.8367) (xy 252.8924 35.8228)
+			(xy 252.8584 35.8089) (xy 252.8256 35.7943) (xy 252.7941 35.7789) (xy 252.7639 35.7628) (xy 252.7349 35.746)
+			(xy 252.7073 35.7284) (xy 252.6809 35.7101) (xy 252.6558 35.6911) (xy 252.632 35.6714) (xy 252.6095 35.6509)
+			(xy 252.5883 35.6297) (xy 252.5683 35.6078) (xy 252.5496 35.5852) (xy 252.5323 35.5618) (xy 252.5161 35.5378)
+			(xy 252.5013 35.5129) (xy 252.4878 35.4874) (xy 252.4755 35.4611) (xy 252.4646 35.4341) (xy 252.4549 35.4064)
+			(xy 252.4465 35.378) (xy 252.4393 35.3488) (xy 252.4335 35.3189) (xy 252.4289 35.2883) (xy 252.4257 35.2569)
+			(xy 252.4237 35.2249) (xy 252.423 35.1921) (xy 252.4235 35.1585) (xy 252.4254 35.1243) (xy 252.4285 35.0893)
+			(xy 252.433 35.0536) (xy 252.4387 35.0172) (xy 252.4469 34.988) (xy 252.4561 34.9592) (xy 252.4662 34.9308)
+			(xy 252.4773 34.9029) (xy 252.4893 34.8753) (xy 252.5024 34.8481) (xy 252.5163 34.8213) (xy 252.5313 34.7949)
+			(xy 259.671 22.386) (xy 255.7168 15.7) (xy 255.7157 15.6977) (xy 255.7145 15.6956) (xy 255.7134 15.6937)
+			(xy 255.7122 15.6919) (xy 255.7111 15.6902) (xy 255.7099 15.6887) (xy 255.7087 15.6873) (xy 255.7076 15.6861)
+			(xy 255.7064 15.685) (xy 255.7053 15.684) (xy 255.7041 15.6832) (xy 255.703 15.6826) (xy 255.7018 15.6821)
+			(xy 255.7006 15.6817) (xy 255.6995 15.6815) (xy 255.6983 15.6814) (xy 255.6972 15.6815) (xy 255.696 15.6817)
+			(xy 255.6949 15.6821) (xy 255.6937 15.6826) (xy 255.6925 15.6832) (xy 255.6914 15.684) (xy 255.6902 15.685)
+			(xy 255.6891 15.6861) (xy 255.6879 15.6873) (xy 255.6867 15.6887) (xy 255.6856 15.6902) (xy 255.6844 15.6919)
+			(xy 255.6833 15.6937) (xy 255.6821 15.6956) (xy 255.681 15.6977) (xy 255.6798 15.7) (xy 250.0587 25.4419)
+			(xy 250.1091 25.5479) (xy 250.1518 25.6532) (xy 250.1867 25.7581) (xy 250.2139 25.8624) (xy 250.2334 25.9662)
+			(xy 250.2452 26.0694) (xy 250.2492 26.1721) (xy 250.2456 26.2742) (xy 250.2342 26.3758) (xy 250.2151 26.4769)
+			(xy 250.1883 26.5774) (xy 250.1537 26.6773) (xy 250.1115 26.7767) (xy 250.0615 26.8756) (xy 250.0038 26.974)
+			(xy 249.9383 27.0717) (xy 249.8365 27.1702) (xy 249.7329 27.258) (xy 249.6804 27.2979) (xy 249.6275 27.3352)
+			(xy 249.5742 27.3699) (xy 249.5204 27.4019) (xy 249.4661 27.4313) (xy 249.4114 27.458) (xy 249.3563 27.4821)
+			(xy 249.3007 27.5036) (xy 249.2447 27.5224) (xy 249.1882 27.5385) (xy 249.1313 27.552) (xy 249.0739 27.5629)
+			(xy 249.0161 27.5711) (xy 248.9578 27.5767) (xy 248.8991 27.5797) (xy 248.84 27.58) (xy 248.7804 27.5776)
+			(xy 248.7204 27.5726) (xy 248.6599 27.565) (xy 248.599 27.5547) (xy 248.5376 27.5418) (xy 248.4758 27.5262)
+			(xy 248.4135 27.508) (xy 248.3508 27.4872) (xy 248.224 27.4375) (xy 248.0955 27.3773) (xy 248.0385 27.334)
+			(xy 247.9841 27.2898) (xy 247.9322 27.2449) (xy 247.8829 27.1991) (xy 247.8362 27.1525) (xy 247.7921 27.1051)
+			(xy 247.7506 27.0569) (xy 247.7116 27.0079) (xy 247.6752 26.9581) (xy 247.6414 26.9075) (xy 247.6101 26.8561)
+			(xy 247.5814 26.8039) (xy 247.5554 26.7508) (xy 247.5318 26.697) (xy 247.5109 26.6423) (xy 247.4925 26.5869)
+			(xy 247.4767 26.5306) (xy 247.4635 26.4736) (xy 247.4529 26.4157) (xy 247.4448 26.357) (xy 247.4394 26.2976)
+			(xy 247.4365 26.2373) (xy 247.4361 26.1762) (xy 247.4384 26.1143) (xy 247.4432 26.0516) (xy 247.4506 25.9881)
+			(xy 247.4606 25.9238) (xy 247.4732 25.8586) (xy 247.4883 25.7927) (xy 247.506 25.726) (xy 247.5263 25.6584)
+			(xy 247.5492 25.5901) (xy 247.6026 25.4923) (xy 247.6599 25.4005) (xy 247.69 25.3568) (xy 247.7211 25.3146)
+			(xy 247.7532 25.2739) (xy 247.7862 25.2346) (xy 247.8203 25.1969) (xy 247.8553 25.1606) (xy 247.8913 25.1258)
+			(xy 247.9283 25.0925) (xy 247.9662 25.0607) (xy 248.0052 25.0304) (xy 248.0451 25.0015) (xy 248.086 24.9741)
+			(xy 248.1278 24.9483) (xy 248.1707 24.9239) (xy 248.2145 24.9009) (xy 248.2593 24.8795) (xy 248.3051 24.8596)
+			(xy 248.3519 24.8411) (xy 248.3996 24.8241) (xy 248.4483 24.8086) (xy 248.4981 24.7946) (xy 248.5487 24.7821)
+			(xy 248.6004 24.7711) (xy 248.653 24.7615) (xy 248.7613 24.7468) (xy 248.8734 24.7381) (xy 255.1057 13.9405)
+			(xy 255.1325 13.9022) (xy 255.1607 13.8663) (xy 255.1901 13.8327) (xy 255.2208 13.8014) (xy 255.2528 13.7724)
+			(xy 255.286 13.7457) (xy 255.3206 13.7214) (xy 255.3564 13.6994) (xy 255.3935 13.6797) (xy 255.4319 13.6624)
+			(xy 255.4715 13.6474) (xy 255.5125 13.6347) (xy 255.5547 13.6243) (xy 255.5982 13.6162) (xy 255.643 13.6105)
+			(xy 255.6891 13.6071) (xy 255.7076 13.6071) (xy 255.7517 13.6105)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 253 179 2 1)
+		)
+		(uuid bdb8345c-ddf2-4838-a334-8dd610677071)
+	)
+	(polyline
+		(pts
+			(xy 267.2902 16.7395) (xy 267.3496 16.7441) (xy 267.4095 16.7513) (xy 267.4698 16.761) (xy 267.5306 16.7733)
+			(xy 267.5918 16.7882) (xy 267.6535 16.8057) (xy 267.7156 16.8257) (xy 267.8411 16.8735) (xy 267.9684 16.9316)
+			(xy 268.0212 16.9692) (xy 268.0718 17.0076) (xy 268.1203 17.0468) (xy 268.1666 17.0869) (xy 268.2108 17.1279)
+			(xy 268.2528 17.1697) (xy 268.2927 17.2123) (xy 268.3304 17.2558) (xy 268.366 17.3001) (xy 268.3994 17.3453)
+			(xy 268.4306 17.3913) (xy 268.4597 17.4381) (xy 268.4866 17.4858) (xy 268.5114 17.5344) (xy 268.534 17.5837)
+			(xy 268.5545 17.634) (xy 268.5728 17.685) (xy 268.5889 17.7369) (xy 268.6029 17.7897) (xy 268.6148 17.8433)
+			(xy 268.6245 17.8977) (xy 268.632 17.953) (xy 268.6374 18.0091) (xy 268.6406 18.0661) (xy 268.6417 18.1239)
+			(xy 268.6406 18.1825) (xy 268.6373 18.242) (xy 268.6319 18.3024) (xy 268.6244 18.3636) (xy 268.6147 18.4256)
+			(xy 268.6028 18.4885) (xy 268.5888 18.5522) (xy 268.5534 18.6515) (xy 268.517 18.7494) (xy 268.4794 18.846)
+			(xy 268.4407 18.9411) (xy 277.7752 34.8875) (xy 277.7946 34.926) (xy 277.8128 34.9647) (xy 277.8297 35.0037)
+			(xy 277.8454 35.0429) (xy 277.8598 35.0824) (xy 277.873 35.1222) (xy 277.8849 35.1622) (xy 277.8955 35.2024)
+			(xy 277.8955 35.3876) (xy 277.8862 35.4285) (xy 277.8751 35.468) (xy 277.8621 35.5061) (xy 277.8473 35.5429)
+			(xy 277.8306 35.5783) (xy 277.812 35.6124) (xy 277.7917 35.6451) (xy 277.7694 35.6765) (xy 277.7454 35.7065)
+			(xy 277.7194 35.7351) (xy 277.6917 35.7624) (xy 277.662 35.7883) (xy 277.6306 35.8129) (xy 277.5973 35.8361)
+			(xy 277.5621 35.8579) (xy 277.5251 35.8784) (xy 264.5605 35.9062) (xy 264.5224 35.963) (xy 264.4833 36.0176)
+			(xy 264.4432 36.0698) (xy 264.4023 36.1198) (xy 264.3604 36.1674) (xy 264.3175 36.2127) (xy 264.2738 36.2558)
+			(xy 264.229 36.2965) (xy 264.1834 36.3349) (xy 264.1368 36.371) (xy 264.0893 36.4048) (xy 264.0408 36.4363)
+			(xy 263.9914 36.4655) (xy 263.9411 36.4924) (xy 263.8898 36.5169) (xy 263.8376 36.5392) (xy 263.7845 36.5592)
+			(xy 263.7304 36.5769) (xy 263.6754 36.5922) (xy 263.6195 36.6053) (xy 263.5626 36.616) (xy 263.5048 36.6245)
+			(xy 263.446 36.6306) (xy 263.3864 36.6344) (xy 263.3257 36.636) (xy 263.2642 36.6352) (xy 263.2017 36.6321)
+			(xy 263.1382 36.6268) (xy 263.0739 36.6191) (xy 263.0086 36.6091) (xy 262.9423 36.5968) (xy 262.8751 36.5822)
+			(xy 262.7613 36.5361) (xy 262.7071 36.5111) (xy 262.6545 36.4848) (xy 262.6037 36.4573) (xy 262.5547 36.4284)
+			(xy 262.5074 36.3983) (xy 262.4619 36.367) (xy 262.4181 36.3343) (xy 262.376 36.3004) (xy 262.3357 36.2651)
+			(xy 262.2972 36.2286) (xy 262.2604 36.1909) (xy 262.2253 36.1518) (xy 262.192 36.1115) (xy 262.1605 36.0699)
+			(xy 262.1307 36.027) (xy 262.1026 35.9828) (xy 262.0763 35.9374) (xy 262.0518 35.8907) (xy 262.029 35.8426)
+			(xy 262.0079 35.7934) (xy 261.9886 35.7428) (xy 261.971 35.691) (xy 261.9552 35.6378) (xy 261.9412 35.5834)
+			(xy 261.9289 35.5278) (xy 261.9183 35.4708) (xy 261.9024 35.353) (xy 261.8935 35.2302) (xy 261.9122 35.0731)
+			(xy 261.925 34.998) (xy 261.9401 34.9252) (xy 261.9575 34.8547) (xy 261.9772 34.7864) (xy 261.9993 34.7205)
+			(xy 262.0236 34.6568) (xy 262.0502 34.5954) (xy 262.0792 34.5362) (xy 262.1105 34.4794) (xy 262.1441 34.4249)
+			(xy 262.18 34.3726) (xy 262.2182 34.3226) (xy 262.2587 34.2749) (xy 262.3015 34.2295) (xy 262.3467 34.1864)
+			(xy 262.3941 34.1455) (xy 262.4439 34.1069) (xy 262.496 34.0707) (xy 262.5503 34.0366) (xy 262.607 34.0049)
+			(xy 262.6661 33.9755) (xy 262.7274 33.9483) (xy 262.791 33.9235) (xy 262.8569 33.9009) (xy 262.9252 33.8806)
+			(xy 262.9958 33.8626) (xy 263.0686 33.8468) (xy 263.1438 33.8334) (xy 263.3011 33.8133) (xy 263.3962 33.8207)
+			(xy 263.4888 33.8326) (xy 263.5787 33.8491) (xy 263.6661 33.8702) (xy 263.751 33.8959) (xy 263.8332 33.9261)
+			(xy 263.9129 33.9609) (xy 263.99 34.0003) (xy 264.0645 34.0443) (xy 264.1365 34.0928) (xy 264.2059 34.1459)
+			(xy 264.2727 34.2036) (xy 264.3369 34.2658) (xy 264.3986 34.3327) (xy 264.4577 34.4041) (xy 264.5142 34.4801)
+			(xy 264.5176 34.4854) (xy 264.5208 34.4908) (xy 264.5238 34.4962) (xy 264.5265 34.5017) (xy 264.529 34.5073)
+			(xy 264.5313 34.5129) (xy 264.5334 34.5186) (xy 264.5352 34.5244) (xy 264.5368 34.5302) (xy 264.5382 34.5361)
+			(xy 264.5394 34.542) (xy 264.5404 34.548) (xy 264.5411 34.5541) (xy 264.5416 34.5602) (xy 264.5419 34.5664)
+			(xy 264.542 34.5727) (xy 275.9879 34.5634) (xy 271.614 27.0843) (xy 267.2646 19.5893) (xy 267.1839 19.5816)
+			(xy 267.1047 19.5705) (xy 267.0272 19.5562) (xy 266.9512 19.5386) (xy 266.8768 19.5177) (xy 266.8039 19.4935)
+			(xy 266.7327 19.466) (xy 266.663 19.4352) (xy 266.5949 19.4012) (xy 266.5284 19.3638) (xy 266.4635 19.3232)
+			(xy 266.4002 19.2793) (xy 266.3384 19.2321) (xy 266.2782 19.1816) (xy 266.2196 19.1278) (xy 266.1626 19.0707)
+			(xy 266.0835 18.957) (xy 266.0148 18.8431) (xy 265.9565 18.729) (xy 265.9086 18.6149) (xy 265.8885 18.5578)
+			(xy 265.8711 18.5007) (xy 265.8562 18.4436) (xy 265.8439 18.3864) (xy 265.8343 18.3292) (xy 265.8272 18.2719)
+			(xy 265.8227 18.2147) (xy 265.8209 18.1574) (xy 265.8216 18.1001) (xy 265.8249 18.0427) (xy 265.8308 17.9854)
+			(xy 265.8393 17.928) (xy 265.8504 17.8706) (xy 265.8641 17.8131) (xy 265.8805 17.7556) (xy 265.8994 17.6981)
+			(xy 265.945 17.5831) (xy 266.0009 17.4679) (xy 266.0673 17.3526) (xy 266.1441 17.2372) (xy 266.2448 17.1409)
+			(xy 266.3474 17.0549) (xy 266.3993 17.0158) (xy 266.4516 16.9792) (xy 266.5045 16.9452) (xy 266.5577 16.9138)
+			(xy 266.6114 16.885) (xy 266.6655 16.8587) (xy 266.7201 16.835) (xy 266.7751 16.8139) (xy 266.8306 16.7953)
+			(xy 266.8865 16.7793) (xy 266.9428 16.7659) (xy 266.9996 16.7551) (xy 267.0568 16.7468) (xy 267.1145 16.7411)
+			(xy 267.1726 16.738) (xy 267.2312 16.7375) (xy 267.2902 16.7395)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 253 179 2 1)
+		)
+		(uuid df573c65-6d28-42c1-b00d-25251c661a5a)
+	)
+	(polyline
+		(pts
+			(xy 260.1896 46.7779) (xy 261.0601 46.7779) (xy 261.0601 45.3518) (xy 261.6342 45.3518) (xy 261.6342 46.7779)
+			(xy 262.8196 46.7779) (xy 262.8211 46.6917) (xy 262.8206 46.6057) (xy 262.8179 46.5198) (xy 262.8132 46.4341)
+			(xy 262.8063 46.3485) (xy 262.7974 46.2631) (xy 262.7864 46.1778) (xy 262.7733 46.0926) (xy 262.7674 46.0616)
+			(xy 262.7607 46.0309) (xy 262.753 46.0007) (xy 262.7444 45.971) (xy 262.7349 45.9417) (xy 262.7244 45.9128)
+			(xy 262.7131 45.8844) (xy 262.7008 45.8564) (xy 262.6876 45.8288) (xy 262.6735 45.8017) (xy 262.6585 45.775)
+			(xy 262.6425 45.7487) (xy 262.6256 45.7229) (xy 262.6079 45.6976) (xy 262.5892 45.6726) (xy 262.5696 45.6481)
+			(xy 262.5188 45.6068) (xy 262.4669 45.5685) (xy 262.4141 45.5333) (xy 262.3602 45.5011) (xy 262.3053 45.4719)
+			(xy 262.2494 45.4458) (xy 262.1925 45.4227) (xy 262.1345 45.4027) (xy 262.0756 45.3857) (xy 262.0156 45.3717)
+			(xy 261.9546 45.3608) (xy 261.8925 45.3529) (xy 261.8295 45.3481) (xy 261.7654 45.3463) (xy 261.7003 45.3475)
+			(xy 261.6342 45.3518) (xy 261.0601 45.3518) (xy 261.0601 44.7962) (xy 261.2361 44.795) (xy 261.4121 44.7962)
+			(xy 261.588 44.7996) (xy 261.7639 44.8054) (xy 261.9445 44.8175) (xy 262.0308 44.8277) (xy 262.1145 44.8406)
+			(xy 262.1955 44.8564) (xy 262.2739 44.8749) (xy 262.3497 44.8962) (xy 262.4228 44.9203) (xy 262.4932 44.9472)
+			(xy 262.561 44.9769) (xy 262.6262 45.0093) (xy 262.6888 45.0445) (xy 262.7487 45.0825) (xy 262.8059 45.1233)
+			(xy 262.8605 45.1669) (xy 262.9125 45.2133) (xy 262.9618 45.2624) (xy 263.0085 45.3143) (xy 263.0525 45.369)
+			(xy 263.0939 45.4265) (xy 263.1327 45.4868) (xy 263.1688 45.5498) (xy 263.2022 45.6157) (xy 263.2331 45.6843)
+			(xy 263.2612 45.7557) (xy 263.2868 45.8299) (xy 263.3097 45.9068) (xy 263.3299 45.9866) (xy 263.3475 46.0691)
+			(xy 263.3625 46.1544) (xy 263.3845 46.3334) (xy 263.3903 46.5788) (xy 263.3938 46.8241) (xy 263.3949 47.0696)
+			(xy 263.3937 47.315) (xy 259.6155 47.315) (xy 259.6155 43.8701) (xy 260.1896 43.8701) (xy 260.1896 46.7779)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 66 66 66 1)
+		)
+		(uuid fc2ccc51-d9bf-44c8-978d-688b28372554)
+	)
+	(text_box "Buzzer driven by NPN transistor switch, controlled via PWM for sound activation"
+		(exclude_from_sim no)
+		(at 54.102 11.938 0)
+		(size 57.15 54.864)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "16234726-27c3-4820-a067-ac2bfcfd751a")
+	)
+	(text_box "Connector for Signal, Power, & GND"
+		(exclude_from_sim no)
+		(at 11.938 11.938 0)
+		(size 42.164 27.178)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "55b29237-e7b1-4ccc-b2c0-6f2f57bd46f9")
+	)
+	(text_box "Potentiometer for Voice Control"
+		(exclude_from_sim no)
+		(at 11.942 39.116 0)
+		(size 42.16 27.686)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "885a1e13-51a4-4d26-a781-d92c0771fe23")
+	)
+	(global_label "Base"
+		(shape input)
+		(at 63.754 48.006 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86798a93-9666-4b65-9e04-ec4297788d15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.2331 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIG"
+		(shape input)
+		(at 37.592 25.654 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fc8dda4-65f7-479e-859b-5d3fc44c34ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.6615 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIG"
+		(shape input)
+		(at 24.384 54.864 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fba1b76-a97d-4547-a167-2f0e0e1d9c35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.3145 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 83.566 16.002 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba790aa3-2c6e-434d-914d-4afc2b511ce1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.3537 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Base"
+		(shape input)
+		(at 33.782 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc3e31a7-0764-4b14-a8aa-3fc1599e7855")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.3029 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 36.83 23.114 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff86ef8c-51d4-41fc-8e53-94966cfd5784")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.6857 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 28.956 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cb0d2be-f36f-49a4-b9bf-8ed103986b26")
+		(property "Reference" "#PWR1"
+			(at 36.83 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c95427d-b06b-4eb8-a35c-0a89edd7fbfc")
+		)
+		(instances
+			(project "BuzzerPot"
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Remal_KiCadLib:D_Schottky_SOD-123_xxV_xxA")
+		(at 75.438 26.162 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35fc27c8-4c2e-446e-989e-2945617c0db3")
+		(property "Reference" "D1"
+			(at 68.58 25.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "D_Schottky_SOD-123_xxV_xxA"
+			(at 72.136 14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Remal_KiCadLib:D_SOD-123"
+			(at 80.264 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.788 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-123 Schottky Barrier Diodes (SBD) diode"
+			(at 75.438 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de41f0a0-b0e9-4534-bf52-0e1a5f51ba98")
+		)
+		(pin "1"
+			(uuid "bff63375-7850-4bc6-b104-67c6b5b019ce")
+		)
+		(instances
+			(project ""
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SFN-1407PA7.6")
+		(at 83.312 24.384 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3aa87c2e-427c-4259-91c8-d4ca26889d7c")
+		(property "Reference" "BUZZER2"
+			(at 89.154 23.7489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "SFN-1407PA7.6"
+			(at 89.154 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:BUZ-TH_BD14.0-P7.60-D0.7"
+			(at 83.312 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_S-S-SFN-1407PA7-6_C360603.html"
+			(at 83.312 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.312 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C360603"
+			(at 83.312 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55e1bd5d-b103-41f8-80b3-cd4107b8f41c")
+		)
+		(pin "1"
+			(uuid "6a575ed6-eb0a-4247-96bd-9d9f9cc4e5b8")
+		)
+		(instances
+			(project "BuzzerPot"
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "BUZZER2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.228 56.134 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a7d0c98-09eb-471d-847a-d515fe008496")
+		(property "Reference" "#PWR2"
+			(at 46.228 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.482 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.228 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.228 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.228 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66bc47b7-683f-4041-9eb6-48f52320028e")
+		)
+		(instances
+			(project "BuzzerPot"
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "#PWR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.772 61.722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "923a288f-733d-4948-b78f-c42669d36e20")
+		(property "Reference" "#PWR3"
+			(at 80.772 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.772 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.772 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.772 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.772 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6524f3c8-e185-4500-b3ef-391b11167cf4")
+		)
+		(instances
+			(project "BuzzerPot"
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WH06-2C-103(10K)")
+		(at 32.77 52.324 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adf6be23-6774-4e25-b2af-bf630675052b")
+		(property "Reference" "R1"
+			(at 33.275 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WH06-2C-103(10K)"
+			(at 33.275 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RES-ADJ-TH_WH06-2C-103"
+			(at 32.77 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.77 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 32.77 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5205043"
+			(at 32.77 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7402e47b-b82e-4dcf-945b-6d405f8ea78c")
+		)
+		(pin "2"
+			(uuid "9c073d0c-0883-4444-9d08-7f708142ce40")
+		)
+		(pin "3"
+			(uuid "136a993a-e9c2-4f5e-8073-312748e2d9a1")
+		)
+		(instances
+			(project ""
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Remal_KiCadLib:R_0805_2012m")
+		(at 69.342 48.006 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeb9c501-4fce-4462-a4f0-91ee01603288")
+		(property "Reference" "R2"
+			(at 69.342 46.228 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 69.596 49.53 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Remal_KiCadLib:R_0805_2012m"
+			(at 71.247 52.197 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 70.0024 53.4924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805 (2012m) Resistor"
+			(at 70.2564 50.0634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f9f9fb6-353a-4806-99b1-65bfedef6f89")
+		)
+		(pin "1"
+			(uuid "493c9185-6c0b-4201-a628-6ad091c1a9b9")
+		)
+		(instances
+			(project "BuzzerPot"
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:AO3400_C4748804")
+		(at 78.232 48.006 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2a2c901-e799-4b53-bac8-0c47ec5a98ba")
+		(property "Reference" "Q2"
+			(at 85.598 46.1009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "AO3400_C4748804"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 78.232 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.232 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.232 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4748804"
+			(at 78.232 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24152d9b-7e6b-46f6-b90e-8c845201c0eb")
+		)
+		(pin "1"
+			(uuid "9bbf8584-564e-4d22-bac8-23d1e1e405db")
+		)
+		(pin "3"
+			(uuid "13b26219-c1d6-4679-925c-38359168ba7c")
+		)
+		(instances
+			(project ""
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Remal_KiCadLib:ConnM_01x03_Horizontal_2.54mm")
+		(at 29.464 23.114 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f6cb2f-688f-468c-8bf2-137aa30abfac")
+		(property "Reference" "J1"
+			(at 29.0715 17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ConnM_01x03_Horizontal_2.54mm"
+			(at 29.0715 19.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Remal_KiCadLib:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 29.464 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 19.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector male horizontal, single row, 01x03"
+			(at 29.464 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4fa8349a-10ee-4eab-9753-88cc6c257fec")
+		)
+		(pin "1"
+			(uuid "8ac05f51-132c-4e98-b1b5-360b6863d816")
+		)
+		(pin "2"
+			(uuid "142a8a80-8adf-4c78-89d9-18f93a702d85")
+		)
+		(instances
+			(project "BuzzerPot"
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
