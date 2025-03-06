@@ -1,16 +1,15 @@
-# 555 Timer Board Project
-Sara's first PCB design board and is used for testing and measuring signals.
+# Buzzer Pot PCB Project
+A PCB designed to drive a passive buzzer for Remal.
 
 ## Project Overview
-Used 555 timer, Hex inverter and multiple LEDs to demostrate best design principles, current flow, and real-world testing using the testpoints. The circuit operates by pluging in the USB-C which gives us 5V to generate the 1kHz, 50% duty cycle signla using the 555timer, which then drives LEDs through different resistances. Additionally, a 3.3V LDO powers the hex inverted used for signal inversion and LED control.
+It is a simple project made only for easy access to buzzers, designed using a MOSFET and a potentiometer to adjust the volume. This project is compatibile with 3.3V to 12V.
 
 ## Features
-- 555 Timer Circuit: Generates a 1 kHz square wave with 50% duty cycle.
-- LED Driver: The 555 output drives four red LEDs through different resistances (10kΩ, 1kΩ, 300Ω, and 50Ω), demonstrating current variation.
-- Voltage Regulation: A 3.3V LDO provides power to additional circuit components.
-- Hex Inverter: - Outputs a testable logic high and logic low signal.
-                - Inverts the 555 timer output and sends it to a test point.
-                - Drives three additional LEDs via 50Ω resistors, using the 555 timer signal.
+- MOSFET Buzzer Driver: Uses the AO3400-HXY MOSFET for efficient switching.
+- Wide Voltage Support: Operates from 3.3V to 12V, making it suitable for various microcontrollers and power sources.
+- Flyback Protection: A Schottky diode protects the MOSFET from high-voltage spikes caused by the buzzer’s inductance.
+- Compact PCB Design: Minimalist layout with proper spacing for high-voltage operation.
+- Potentiometer Control (user firendly)
 
 ## Circuit Schematic
 ![Circuit Schematc](./Images/Schematic.png)
@@ -20,8 +19,6 @@ Used 555 timer, Hex inverter and multiple LEDs to demostrate best design princip
 
 ## Usage
 To use the board:
-1. Insert the USB-C Cabel
-2. LED 1,2,3,4 should be oscillating at diffferent brighness
-3. (if the LEDs dont blink) check voltage from the OUT pin and it should be oscillating
-4. Use testpoints and verify the labels
-5. Verify that the hex inverter LEDs doesnt blink with the 555 timer LEDs since they have to be opposite
+1. Connect Power - Attach a power source (3.3V - 12V).
+2. Apply a PWM Signal from a microcontroller.
+3. Test Voltage Levels using the potentiometer
