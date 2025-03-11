@@ -1,0 +1,60 @@
+Operating Voltage: DC 5V
+Operating Current: ≥500mA
+Maximum Power: 2W
+Operating Temperature: 0~40℃
+Dimensions: 49 × 31 × 15.6mm
+Speaker Power: 0.15W
+Speaker Volume: 80dB
+Amplifier Chip: SC8002B
+
+How to use 8002b Audio Power Amplifier:
+https://www.keyestudio.com/blog/how-to-use-8002b-audio-power-amplifier-with-esp32-225
+https://wiki.keyestudio.com/KS0374_keyestudio_Power_Amplifier_Module
+https://www.aliexpress.com/i/1005004312864454.html?gatewayAdapt=glo2ara
+
+
+Parts I am using:
+Amplifier: Shenzhen Fuman Elec SC8002B; C82124
+Speaker: Dragonstate HDK-4004BB-2P; C28642280
+Potentiometer: ALPSALPINE RK09K1130A6S; C209770
+
+
+
+
+
+
+
+Recommendations for the SC8002B:
+1. Power Supply
+Recommended Voltage: 2.0V - 5.5V (Typically 5V)
+Current Consumption: ≥500mA
+Max Output Power: 2W at 5V with 4Ω Load
+Decoupling Capacitor: A 100µF capacitor is recommended on the power supply line to stabilize the voltage and prevent noise.
+
+2. Speaker Impedance
+The SC8002B supports 4Ω or 8Ω speakers.
+For a 4Ω speaker: It can output 2W at 5V.
+For an 8Ω speaker: It can output 1.5W at 5V.
+Ensure the speaker impedance matches the amplifier to prevent overheating or distortion.
+
+3. Input Coupling Capacitor
+The amplifier requires an input capacitor (usually 0.1µF - 1µF) to block DC voltage and allow AC (audio) signals to pass through.
+
+4. Volume Control (Potentiometer)
+Recommended 10kΩ potentiometer for volume adjustment (which you are using).
+The potentiometer should be placed at the input signal line before the amplifier.
+
+5. Output Capacitor & Load Configuration
+If using Single-Ended (SE) mode, you need a large output capacitor (~220µF) to block DC and pass audio.
+If using Bridge-Tied Load (BTL) mode, no capacitor is needed because both speaker terminals receive opposite-phase signals.
+
+6. PCB Layout Recommendations
+Keep power and ground traces thick to handle current demand.
+Place decoupling capacitors close to the amplifier’s power pins to reduce noise.
+Keep input signal traces away from power traces to prevent interference.
+
+
+Ensure you add the required capacitors (input capacitor, decoupling capacitor, and possibly an output capacitor if using SE mode
+
+
+

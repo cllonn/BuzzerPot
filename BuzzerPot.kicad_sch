@@ -12,6 +12,145 @@
 		(comment 1 "Sara AlMarzooqi")
 	)
 	(lib_symbols
+		(symbol "Remal_KiCadLib:C_0402_1005m"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.032 1.6256 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_0402_1005m/xxV"
+				(at 2.032 -0.4064 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Remal_KiCadLib:C_0402_1005m"
+				(at -15.494 -12.5984 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.508 -13.9192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0402 (1005m) Capacitor"
+				(at -1.016 -10.5156 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "c capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0402_1005m_0_0"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.302 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C_0402_1005m_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0402_1005m_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy -1.27 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "0402"
+					(at 1.016 0.508 0)
+					(effects
+						(font
+							(size 0.4 0.4)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Remal_KiCadLib:C_0805_2012m"
 			(pin_numbers hide)
 			(pin_names
@@ -409,6 +548,229 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Remal_KiCadLib:MountingHole_3.2mm_M3_NoConn"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_3.2mm_M3_NoConn"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Remal_KiCadLib:MountingHole_3.2mm_M3_NoConn"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole 3.2mm M3 without connection"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole 3.2mm M3 no connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_3.2mm_M3_NoConn_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Remal_KiCadLib:R_0402_1005m"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.302 1.8288 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0402_1005m"
+				(at 1.016 1.9304 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Remal_KiCadLib:R_0402_1005m"
+				(at 2.794 -4.9784 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -6.5024 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0402 (1005m) Resistor"
+				(at 1.524 -2.6924 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0402_1005m_1_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 0.508) (xy -0.762 0) (xy -0.381 -0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 0.508) (xy 0.762 0) (xy 1.143 -0.508) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "0402"
+					(at 1.4478 0.4572 0)
+					(effects
+						(font
+							(size 0.4 0.4)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1397,13 +1759,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.608 54.864) (xy 42.418 54.864)
+			(xy 22.352 56.134) (xy 28.448 56.134)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46b1a8d5-af97-4051-b6ea-b58f948caefa")
+		(uuid "41b5c975-18f2-4592-ab2b-f8210f909940")
 	)
 	(wire
 		(pts
@@ -1414,16 +1776,6 @@
 			(type default)
 		)
 		(uuid "492c7388-5589-45c2-80c4-d1e65c7968f7")
-	)
-	(wire
-		(pts
-			(xy 23.876 55.88) (xy 23.876 54.864)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da1fdad-a5ac-4228-9dcf-e10608dddfc0")
 	)
 	(wire
 		(pts
@@ -1454,16 +1806,6 @@
 			(type default)
 		)
 		(uuid "593ff3e8-8600-4aad-8334-ce9d55553d87")
-	)
-	(wire
-		(pts
-			(xy 23.876 54.864) (xy 28.448 54.864)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a0c8b15-2186-42b0-a9a9-8d4ac28e3c22")
 	)
 	(wire
 		(pts
@@ -1507,6 +1849,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.352 56.134) (xy 22.352 59.436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8cc0b2-afd7-4288-a21c-9477e3d49664")
+	)
+	(wire
+		(pts
 			(xy 102.108 32.258) (xy 105.664 32.258)
 		)
 		(stroke
@@ -1514,6 +1866,16 @@
 			(type default)
 		)
 		(uuid "7519365a-cc47-4552-9db8-ea2077673ef8")
+	)
+	(wire
+		(pts
+			(xy 38.608 56.134) (xy 40.894 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7896a41f-47b0-455b-ad45-be62f3bc979b")
 	)
 	(wire
 		(pts
@@ -1604,16 +1966,6 @@
 			(type default)
 		)
 		(uuid "a6e75d3f-7500-40af-8ac5-5c7b29ad5895")
-	)
-	(wire
-		(pts
-			(xy 33.528 46.99) (xy 33.528 49.784)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab804fe0-2dcd-430b-a647-871a70d49626")
 	)
 	(wire
 		(pts
@@ -1764,6 +2116,16 @@
 			(type default)
 		)
 		(uuid "f038bfd7-74eb-471c-b980-68b3a0ab6a69")
+	)
+	(wire
+		(pts
+			(xy 33.528 46.99) (xy 33.528 51.054)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e4bc9f-7f99-4081-acd2-dd4f5159fa00")
 	)
 	(wire
 		(pts
@@ -2394,7 +2756,7 @@
 	)
 	(global_label "SIG"
 		(shape input)
-		(at 42.418 54.864 0)
+		(at 40.894 56.134 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2404,7 +2766,7 @@
 		)
 		(uuid "9fba1b76-a97d-4547-a167-2f0e0e1d9c35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.7516 54.864 0)
+			(at 46.2276 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +3049,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 23.876 55.88 0)
+		(at 22.352 59.436 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2695,7 +3057,7 @@
 		(dnp no)
 		(uuid "6a7d0c98-09eb-471d-847a-d515fe008496")
 		(property "Reference" "#PWR2"
-			(at 23.876 62.23 0)
+			(at 22.352 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +3066,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 59.69 0)
+			(at 22.606 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +3074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 23.876 55.88 0)
+			(at 22.352 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +3083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.876 55.88 0)
+			(at 22.352 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +3092,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 23.876 55.88 0)
+			(at 22.352 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,6 +3287,85 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:WH06-2C-103(10K)")
+		(at 33.278 53.594 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b2549ca-8911-4cf0-8e1f-9a328f23736a")
+		(property "Reference" "R4"
+			(at 33.528 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WH06-2C-103(10K)"
+			(at 33.528 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RES-ADJ-TH_WH06-2C-103"
+			(at 33.278 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.278 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.278 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5205043"
+			(at 33.278 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fb49153f-47c4-4cea-b118-5f81a6b02406")
+		)
+		(pin "2"
+			(uuid "028a95d5-4c46-42c8-93d1-8e8d5f453e08")
+		)
+		(pin "1"
+			(uuid "d58da58a-c3b0-4ce2-a67d-cf4b085d1053")
+		)
+		(instances
+			(project ""
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.706 28.448 0)
 		(unit 1)
@@ -2984,154 +3425,6 @@
 			(project ""
 				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
 					(reference "#PWR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Remal_KiCadLib:R_0805_2012m")
-		(at 66.294 37.338 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9855c16b-b5a7-4120-b9b5-30f1a221eb9f")
-		(property "Reference" "R2"
-			(at 66.294 36.322 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "20k"
-			(at 66.294 38.354 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Remal_KiCadLib:R_0805_2012m"
-			(at 68.199 41.529 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.9544 42.8244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0805 (2012m) Resistor"
-			(at 67.2084 39.3954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51064a3b-cb0c-406e-bb36-867be80a85c7")
-		)
-		(pin "2"
-			(uuid "aeecc40e-a018-4187-a9ce-0203cea5538d")
-		)
-		(instances
-			(project ""
-				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:WH06-2C-103(10K)")
-		(at 33.278 52.324 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98785c78-50dd-4fe5-8e0e-a7b93c564a5e")
-		(property "Reference" "R1"
-			(at 33.783 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WH06-2C-103(10K)"
-			(at 33.783 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:RES-ADJ-TH_WH06-2C-103"
-			(at 33.278 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.278 52.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.278 52.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5205043"
-			(at 33.278 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "771cf012-4956-439b-af26-eb301e574b93")
-		)
-		(pin "1"
-			(uuid "dedfce43-381c-48b2-8f40-eaa8f574c8d6")
-		)
-		(pin "3"
-			(uuid "62485039-2084-4096-9fae-6546fc2a15f0")
-		)
-		(instances
-			(project ""
-				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3203,73 +3496,64 @@
 		)
 	)
 	(symbol
-		(lib_id "Remal_KiCadLib:C_0805_2012m")
-		(at 36.322 46.99 90)
+		(lib_id "Remal_KiCadLib:MountingHole_3.2mm_M3_NoConn")
+		(at 58.674 61.468 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c4242bd3-c798-4875-9599-7edb899e87b4")
-		(property "Reference" "C3"
-			(at 35.306 49.53 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "1uF"
-			(at 39.37 46.228 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Remal_KiCadLib:C_0805_2012m"
-			(at 49.276 62.738 0)
+		(fields_autoplaced yes)
+		(uuid "c732faeb-4e46-4182-ab14-024b2f0c7cce")
+		(property "Reference" "H1"
+			(at 62.23 59.5629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3_NoConn"
+			(at 62.23 63.3729 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Remal_KiCadLib:MountingHole_3.2mm_M3_NoConn"
+			(at 58.674 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.546 47.752 0)
+			(at 58.674 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0805 (2012m) Capacitor"
-			(at 46.99 58.674 0)
+		(property "Description" "Mounting Hole 3.2mm M3 without connection"
+			(at 58.674 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "1c9e555f-65ac-49a5-adc8-879b08f7a016")
-		)
-		(pin "2"
-			(uuid "e4ba5b2c-1f45-4c76-84c6-05fcd4f51ed3")
 		)
 		(instances
-			(project "BuzzerPot"
+			(project ""
 				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
-					(reference "C3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3343,6 +3627,143 @@
 			(project ""
 				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Remal_KiCadLib:R_0402_1005m")
+		(at 66.294 37.338 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d48c0a11-306c-4d77-8e61-0c0dc8036023")
+		(property "Reference" "R2"
+			(at 66.548 36.068 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 66.802 38.862 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Remal_KiCadLib:R_0402_1005m"
+			(at 69.088 42.3164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.564 43.8404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0402 (1005m) Resistor"
+			(at 67.818 40.0304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93ee360a-9bad-4373-8ba3-71ca40752cb0")
+		)
+		(pin "1"
+			(uuid "614e0db7-0cc9-4982-9d59-0bbec9c72b79")
+		)
+		(instances
+			(project ""
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Remal_KiCadLib:C_0402_1005m")
+		(at 36.322 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0e2305f-cbba-460c-b80b-419930c312bf")
+		(property "Reference" "C3"
+			(at 36.2098 40.64 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 36.2098 43.18 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Remal_KiCadLib:C_0402_1005m"
+			(at 48.9204 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.2412 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0402 (1005m) Capacitor"
+			(at 46.8376 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "020fad70-05cc-41ba-a54c-5f5a5603e0b4")
+		)
+		(pin "2"
+			(uuid "3bb82df3-cba3-424b-bc4d-054503eb061a")
+		)
+		(instances
+			(project ""
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "C3")
 					(unit 1)
 				)
 			)
