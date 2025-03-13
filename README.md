@@ -1,24 +1,24 @@
-# Buzzer Pot PCB Project
-A PCB designed to drive a passive buzzer for Remal.
+# Speaker PCB Project  
+A PCB designed to drive a speaker using an SC8002B amplifier.
 
-## Project Overview
-It is a simple project made only for easy access to buzzers, designed using a MOSFET and a potentiometer to adjust the volume. This project is compatibile with 3.3V to 12V.
+## Project Overview  
+This project is built for easy access to amplified sound output, designed using an SC8002B amplifier and a potentiometer to adjust volume. It operates within a 3.3V to 5V range for flexibility with different power sources.
 
-## Features
-- MOSFET Buzzer Driver: Uses the AO3400-HXY MOSFET for efficient switching.
-- Wide Voltage Support: Operates from 3.3V to 12V, making it suitable for various microcontrollers and power sources.
-- Flyback Protection: A Schottky diode protects the MOSFET from high-voltage spikes caused by the buzzer’s inductance.
-- Compact PCB Design: Minimalist layout with proper spacing for high-voltage operation.
-- Potentiometer Control (user firendly)
+## Features  
+- SC8002B Audio Amplifier – Provides 1.2W output at 8Ω for clear sound.  
+- Speaker Compatibility – Works with an 8Ω, 1W speaker (INGHAi GSPK2307P-8R1W).  
+- Potentiometer Control – Uses a 3386P Long Neck for easy volume adjustment.  
+- Compact PCB Layout – Optimized for space efficiency while maintaining performance.
 
-## Circuit Schematic
-![Circuit Schematc](./Images/Schematic.png)
+## Circuit Schematic  
+![Circuit Schematic](./Images/Schematic.png)
 
-## PCB Layout
+## PCB Layout  
 ![PCB Layout](./Images/Layout.png)
 
-## Usage
-To use the board:
-1. Connect Power - Attach a power source (3.3V - 12V).
-2. Apply a PWM Signal from a microcontroller.
-3. Test Voltage Levels using the potentiometer
+## Usage  
+To use the board:  
+1- Connect Power – Attach a power source (3.3V - 5V).  
+2- Adjust Volume – Use the potentiometer to control the speaker output.  
+3- Apply an Audio Signal – Feed a signal from a microcontroller or an external source.  
+4- Test Output Levels – Verify speaker performance at different power levels.
