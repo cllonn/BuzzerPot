@@ -1,4 +1,4 @@
-25001607239944106
+25012056921315526
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100555,6 +100555,20 @@ BUZ-TH_BD14.0-P7.60-D0.7
 2
 2
 easyeda2kicad
+BUZ-TH_BD40.0-P18.00-D1.0-FD
+
+
+0
+2
+2
+easyeda2kicad
+RES-ADJ-TH_3P-L9.5-W9.5-P2.50-L_3386P
+
+
+0
+3
+3
+easyeda2kicad
 RES-ADJ-TH_WH06-2C-103
 
 
@@ -100568,6 +100582,27 @@ RES-TH_RK09K1130A6S
 0
 5
 5
+easyeda2kicad
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
+
+
+0
+8
+8
+easyeda2kicad
+SOT-23_L2.9-W1.3-P1.90-LS2.4-BR
+
+
+0
+3
+3
+easyeda2kicad
+SPK-TH_BD23.0-P10.00-D0.8-L-RD
+
+
+0
+2
+2
 practice_logo
 PracticeRobotLogo
 
@@ -100577,6 +100612,13 @@ PracticeRobotLogo
 0
 practice_logo
 RemalLogoSmall
+
+
+0
+0
+0
+practice_logo
+nagm board
 
 
 0
