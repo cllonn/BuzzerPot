@@ -418,6 +418,88 @@
 				)
 			)
 		)
+		(symbol "Remal_KiCadLib:MountingHole_2.2mm_M2_NoConn"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_2.2mm_M2_NoConn"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Remal_KiCadLib:MountingHole_2.2mm_M2_NoConn"
+				(at 0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.254 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole 2.2mm M2 without connection"
+				(at 0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Mounting Hole 2.2mm M2 no connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_2.2mm_M2_NoConn_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Remal_KiCadLib:R_0805_2012m"
 			(pin_numbers hide)
 			(pin_names
@@ -3093,6 +3175,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Remal_KiCadLib:MountingHole_2.2mm_M2_NoConn")
+		(at 35.052 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0a42476-4c41-43b4-9a05-5a478e78ec1d")
+		(property "Reference" "H2"
+			(at 37.084 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2_NoConn"
+			(at 37.084 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Remal_KiCadLib:MountingHole_2.2mm_M2_NoConn"
+			(at 35.306 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.306 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole 2.2mm M2 without connection"
+			(at 35.306 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 117.602 49.276 0)
 		(unit 1)
@@ -3286,6 +3431,69 @@
 			(project "BuzzerPot"
 				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
 					(reference "#PWR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Remal_KiCadLib:MountingHole_2.2mm_M2_NoConn")
+		(at 35.306 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6572693-09a2-40ff-82be-6d10cdfb6fe4")
+		(property "Reference" "H1"
+			(at 37.084 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2_NoConn"
+			(at 37.084 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Remal_KiCadLib:MountingHole_2.2mm_M2_NoConn"
+			(at 35.56 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole 2.2mm M2 without connection"
+			(at 35.56 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/bf042a33-1684-4ee5-aab2-ce4b698ddb84"
+					(reference "H1")
 					(unit 1)
 				)
 			)
